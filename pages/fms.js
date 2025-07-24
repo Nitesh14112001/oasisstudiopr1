@@ -78,9 +78,9 @@ export default function FMS() {
       className="min-h-screen"
       style={{ background: "linear-gradient(135deg, #b6b9c4, #ceb4b4, #b9bed1)" }}
     >
-      {/* Header */}
+      {/* Sticky Header */}
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur shadow-md">
-        <div className="container mx-auto flex flex-wrap p-4 items-center justify-between">
+        <div className="container mx-auto flex flex-wrap items-center justify-between p-4">
           <Link href="/" className="flex items-center space-x-3">
             <img
               src="https://oasisstudio.co.in/wp-content/uploads/2025/02/Oasis-Studio-Logo-Bg-remove-2.png"
@@ -94,55 +94,45 @@ export default function FMS() {
             <Link href="/fms" className="hover:text-gray-900">FMS</Link>
             <Link href="/dashboard" className="hover:text-gray-900">Dashboard</Link>
             <Link href="/checklist" className="hover:text-gray-900">Checklist</Link>
-  
+        
             <Link href="/management" className="hover:text-gray-900">Management</Link>
           </nav>
         </div>
       </header>
 
       {/* Search Box */}
-      <div className="container mx-auto px-5 pt-12 text-center">
+      <div className="container mx-auto px-5 pt-12 pb-0 text-center">
         <input
           type="text"
-          placeholder="Search FMS..."
+          placeholder="Search FMS links..."
           className="border border-gray-300 rounded px-4 py-2 w-full sm:w-1/2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
       </div>
 
-      {/* Gallery */}
-      <section className="text-gray-700 body-font">
+      {/* Link Grid */}
+      <section className="text-gray-600 body-font">
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-wrap -m-4">
-            {filteredLinks.map((fms, index) => (
-              <div key={index} className="lg:w-1/4 sm:w-1/2 p-4">
-                <div className="relative h-48 rounded overflow-hidden shadow-lg bg-white/80 backdrop-blur-sm">
-                  <img
-                    src={fms.image}
-                    alt={fms.name}
-                    className="absolute inset-0 w-full h-full object-cover"
-                  />
-                  <a
-                    href={fms.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="absolute z-10 w-full h-full px-6 py-8 bg-white bg-opacity-0 hover:bg-opacity-90 transition duration-300 ease-in-out flex flex-col justify-center items-center text-center"
-                  >
-                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                      FMS
-                    </h2>
-                    <h1 className="title-font text-base font-medium text-gray-900 mb-2">
-                      {fms.name}
-                    </h1>
-                    <p className="text-sm text-gray-600">Opens Google Sheet</p>
-                  </a>
+            {filteredLinks.length > 0 ? (
+              filteredLinks.map((link, index) => (
+                <div key={index} className="lg:w-1/4 sm:w-1/2 p-4">
+                  <div className="h-48 bg-white/90 p-6 rounded-lg flex flex-col justify-center items-center shadow hover:shadow-lg transition">
+                    <a
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-indigo-600 font-medium text-center hover:underline"
+                    >
+                      {link.name}
+                    </a>
+                  </div>
                 </div>
-              </div>
-            ))}
-            {filteredLinks.length === 0 && (
+              ))
+            ) : (
               <p className="text-center w-full text-gray-500 mt-12">
-                No matching FMS found.
+                No matching links found.
               </p>
             )}
           </div>

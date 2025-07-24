@@ -45,7 +45,7 @@ export default function Management() {
     { name: 'Material Seggregation Form ( For Supervisors )', url: 'https://docs.google.com/spreadsheets/d/1YEAxAu2YCzyyaDqlHKssZ5qQ8ynaZPT7_D3oShAM1S4/edit?usp=sharing' },
     { name: 'Wardrobe Site Visit Form ( for supervisors) ', url: 'https://docs.google.com/spreadsheets/d/1Ofc3vhyArdikvd6w5ceU8Ztxs3mutz4SZai5Yr3zoy0/edit?usp=sharing' },
     { name: 'DM sheet ', url: 'https://docs.google.com/spreadsheets/d/1oTTjnbNRc1A8n_5zu0pyxhBq1V1XqkPyul9l8V7960k/edit?gid=1705863954#gid=1705863954' },
-    { name: 'Passwrds', url: 'https://docs.google.com/spreadsheets/d/1syubCLhgRrgBKGy_2z0xG21fVZEKiCpVRnJ1VR5SVP0/edit?gid=1095589400#gid=1095589400' },
+    { name: 'Passward', url: 'https://docs.google.com/spreadsheets/d/1syubCLhgRrgBKGy_2z0xG21fVZEKiCpVRnJ1VR5SVP0/edit?gid=1095589400#gid=1095589400' },
     { name: 'Critical Reports', url: 'https://docs.google.com/spreadsheets/d/1ql_ZN8gFayo7gXfVUJNf7kW37D6sTSfWNZ3SZs3YVzE/edit?gid=0#gid=0' },
     
   ];
