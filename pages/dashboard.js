@@ -135,6 +135,7 @@ export default function Dashboard() {
     },
     {
       name: "Online Landing Page Dashboard",
+      name: "Online Leads Dashboard",
       url: "https://lookerstudio.google.com/reporting/41e9b33a-73e1-43d7-bf58-7c35b1e69c53/page/p_4fp8oclasd/edit",
       image: "https://dummyimage.com/600x400/4f46e5/ffffff&text=Closure",
     },
@@ -151,6 +152,21 @@ export default function Dashboard() {
     {
       name: "Petty Dashboard",
       url: "https://lookerstudio.google.com/reporting/d860d455-d9df-4ab0-8e15-27c393e2be51",
+      image: "https://dummyimage.com/600x400/4f46e5/ffffff&text=Closure",
+    },
+    {
+      name: "BDM MASTER  DASHBOARD",
+      url: "https://lookerstudio.google.com/reporting/ce57cdd8-bf0a-4f7f-bfa5-9b790a1d2c08",
+      image: "https://dummyimage.com/600x400/4f46e5/ffffff&text=Closure",
+    },
+    {
+      name: "BDM AZEEMA Dashboard",
+      url: "https://lookerstudio.google.com/reporting/b3ac2098-adff-49be-84ac-c25a0a7f5db4",
+      image: "https://dummyimage.com/600x400/4f46e5/ffffff&text=Closure",
+    },
+    {
+      name: "BDM AMIT Dashboard",
+      url: "https://lookerstudio.google.com/reporting/0adf580f-7e25-4d48-8a3b-417ef78a2b10",
       image: "https://dummyimage.com/600x400/4f46e5/ffffff&text=Closure",
     },
      
