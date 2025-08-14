@@ -49,7 +49,7 @@ export default function Dashboard() {
     },
     {
       name: "Lead Gen Dashboard",
-      url: "https://lookerstudio.google.com/reporting/aa632a77-10fd-4c1b-abdd-642889631801",
+      url: "https://lookerstudio.google.com/reporting/ce57cdd8-bf0a-4f7f-bfa5-9b790a1d2c08",
       image: "https://dummyimage.com/600x400/10b981/ffffff&text=Customer+Care",
     },
     {
@@ -154,7 +154,7 @@ export default function Dashboard() {
       image: "https://dummyimage.com/600x400/4f46e5/ffffff&text=Closure",
     },
     {
-      name: "BDM MASTER  DASHBOARD",
+      name: "BDM RAHUL DASHBOARD",
       url: "https://lookerstudio.google.com/reporting/ce57cdd8-bf0a-4f7f-bfa5-9b790a1d2c08",
       image: "https://dummyimage.com/600x400/4f46e5/ffffff&text=Closure",
     },
