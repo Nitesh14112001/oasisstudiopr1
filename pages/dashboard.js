@@ -134,7 +134,6 @@ export default function Dashboard() {
       image: "https://dummyimage.com/600x400/4f46e5/ffffff&text=Closure",
     },
     {
-      name: "Online Landing Page Dashboard",
       name: "Online Leads Dashboard",
       url: "https://lookerstudio.google.com/reporting/41e9b33a-73e1-43d7-bf58-7c35b1e69c53/page/p_4fp8oclasd/edit",
       image: "https://dummyimage.com/600x400/4f46e5/ffffff&text=Closure",
