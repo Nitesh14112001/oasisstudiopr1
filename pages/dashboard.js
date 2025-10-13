@@ -168,6 +168,11 @@ export default function Dashboard() {
       url: "https://lookerstudio.google.com/reporting/0adf580f-7e25-4d48-8a3b-417ef78a2b10",
       image: "https://dummyimage.com/600x400/4f46e5/ffffff&text=Closure",
     },
+    {
+      name: "PC Dashboard",
+      url: "https://lookerstudio.google.com/reporting/7be18138-657d-49fd-bea9-9039ec37146d",
+      image: "https://dummyimage.com/600x400/4f46e5/ffffff&text=Closure",
+    },
      
   ];
 
