@@ -173,6 +173,11 @@ export default function Dashboard() {
       url: "https://lookerstudio.google.com/reporting/7be18138-657d-49fd-bea9-9039ec37146d",
       image: "https://dummyimage.com/600x400/4f46e5/ffffff&text=Closure",
     },
+    {
+      name: "Oasis Account Book Dashboard",
+      url: "https://lookerstudio.google.com/reporting/e16976b2-36bd-4a3f-b0ce-26fd63c695d3",
+      image: "https://dummyimage.com/600x400/4f46e5/ffffff&text=Closure",
+    },
      
   ];
 
