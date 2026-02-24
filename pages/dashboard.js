@@ -174,8 +174,13 @@ export default function Dashboard() {
       image: "https://dummyimage.com/600x400/4f46e5/ffffff&text=Closure",
     },
     {
-      name: "Oasis Account Book Dashboard",
-      url: "https://lookerstudio.google.com/reporting/e16976b2-36bd-4a3f-b0ce-26fd63c695d3",
+      name: "Online DM Dashboard",
+      url: "https://lookerstudio.google.com/reporting/1e474748-feb2-4a1e-9c30-46a6f0d6ea00",
+      image: "https://dummyimage.com/600x400/4f46e5/ffffff&text=Closure",
+    },
+    {
+      name: "Bharat Allawadhi Dashboard",
+      url: "https://lookerstudio.google.com/u/0/reporting/9cc3652b-940e-44c4-9685-4dc19a64d318/page/0rTSF",
       image: "https://dummyimage.com/600x400/4f46e5/ffffff&text=Closure",
     },
      
